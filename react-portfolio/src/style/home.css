@@ -1,0 +1,22 @@
+.homeDiv{
+    display: flex;
+       background-color: aliceblue;
+
+}
+.homeText{
+    font-size: 65px;
+    color: #0070b5;
+
+}
+
+.sum{
+    width: 300px;
+    height: 300px;
+ 
+ 
+}
+
+.Profile{
+    height: 600px;
+    width: 500px;
+}
