@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+  .resume {
+
+    background-image: linear-gradient(to top right,#fac90624,#ff660014 50%,#cc330025);
+  }
+  .resumeText{
+    font-family: 'Share Tech Mono', monospace;
+    color: #0070b5;
+    font-size: 85px;
+  }
+

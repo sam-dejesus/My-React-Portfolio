@@ -4,9 +4,10 @@ import React from 'react';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs bg-dark sticky-top">
-      <li className="nav-item">
-        <a
+    <nav className='nav nav-tabs bg-dark sticky-top '>
+       <p className='text-white col-6 d-flex align-items-center pt-2 ps-2 '></p>
+       <div className='col-6 d-flex justify-content-end'>
+         <a
           href="#home"
           onClick={() => handlePageChange('Home')}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -15,18 +16,16 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Home
         </a>
-      </li>
-      <li className="nav-item">
+    
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          href="#projects"
+          onClick={() => handlePageChange('Projects')}
+          // Check to see if the currentPage is `Projects`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Projects
         </a>
-      </li>
-      <li className="nav-item">
+
         <a
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -35,8 +34,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Resume
         </a>
-      </li>
-      <li className="nav-item">
+  
         <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
@@ -45,8 +43,11 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           Contact
         </a>
-      </li>
-    </ul>
+ 
+       </div>
+       
+    </nav>
+
   );
 }
 

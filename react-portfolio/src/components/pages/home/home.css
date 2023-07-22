@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+.homeDiv{
+    display: flex;
+    background-image: linear-gradient(to top right,#fac90624,#ff660014 50%,#cc330025);
+ 
+
+}
+.homeText{
+    font-size: 85px;
+    color: #0070b5;
+    font-family: 'Share Tech Mono', monospace;
+
+}
+
+.sum{
+  width: 600px;
+  height: 300px;
+  padding: 20px;
+  background-color: white;
+ 
+ 
+}
+
+.Profile{
+    height: 500px;
+    width: 400px;
+    border-radius: 90px;
+}
+.hand{
+    font-size: 100px;
+    display: inline-block;
+    animation: wave 2s linear infinite;
+}
+
+@keyframes wave {
+    0%, 100% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(-30deg);
+    }
+    75% {
+      transform: rotate(30deg);
+    }
+  }
+
+  .list{
+    list-style: none;
+    font-size: 30px;
+  
+  }

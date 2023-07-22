@@ -1,0 +1,14 @@
+.footer{
+    
+}
+.footer-icon-size{
+  font-size: 60px;
+
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
