@@ -5,6 +5,10 @@
  
 
 }
+.homeBody{
+  justify-content: space-around;
+
+}
 .homeText{
     font-size: 85px;
     color: #0070b5;
@@ -48,4 +52,119 @@
     list-style: none;
     font-size: 30px;
   
+  }
+
+  @media screen and (max-width: 1200px) {
+    .homeText{
+      font-size: 60px;
+    }
+    .hand{
+      font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 1050px) {
+    .Profile{
+      height: 350px;
+      width: 350px;
+    }
+    .sum{
+      width: 450px;
+      height: 280px;
+      padding: 20px;
+    }
+  }
+  @media screen and (max-width: 850px){
+    .homeText{
+      font-size: 40px;
+    }
+    .hand{
+      font-size: 50px;
+    }
+    .list{
+      font-size: 20px;
+    }
+    .Profile{
+      height: 350px;
+      width: 350px;
+    }
+    .myStory{
+      font-size: 15px;
+    }
+    .sum{
+      width: 350px;
+      height: 280px;
+      padding: 20px;
+      font-size: 12px;
+    }
+
+
+  }
+
+  @media screen and (max-width: 720px){
+    .Profile{
+      height: 350px;
+      width: 350px;
+      margin-bottom: 25px;
+    }
+    .list{
+      font-size: 30px;
+    }
+    
+    .homeBody{
+      display: flex;
+ 
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .sum{
+      width: 350px;
+      height: 280px;
+      padding: 20px;
+      font-size: 14px;
+    }
+  }
+
+  @media screen and (max-width:600px){
+    .homeText{
+      font-size: 28px;
+    }
+    .hand{
+      font-size: 35px;
+    }
+  }
+
+  @media screen and (max-width:420px){
+    .homeText{
+      font-size: 25px;
+    }
+    .hand{
+      font-size: 30px;
+    }
+    .Profile{
+      height: 300px;
+      width: 300px;
+    }
+  }
+
+  @media screen and (max-width:320px){
+    .homeText{
+      font-size: 16px;
+    }
+    .hand{
+      font-size: 20px;
+    }
+    .Profile{
+      height: 200px;
+      width: 200px;
+    }
+    .list{
+      font-size: 20px;
+    }
+    .sum{
+      width: 250px;
+      height: 180px;
+      padding: 20px;
+      font-size: 8px;
+    }
   }

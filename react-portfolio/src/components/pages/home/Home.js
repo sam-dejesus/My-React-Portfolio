@@ -8,14 +8,14 @@ export default function Home() {
 
       <h1 className='homeText d-flex justify-content-center mt-5 mb-5'>Hey, im Samuel Dejesus <span  class="hand ms-5 ">✋🏼</span></h1>
 
-      <div className='col-12 d-flex justify-content-around mb-5 align-items-center'>
+      <div className=' d-flex mb-5 align-items-center homeBody'>
 
         <img src={Profile} alt='me' className='Profile shadow'/>
 
         <div className='  '>
         <div class=" text-black sum shadow">
-        <h5 class=" d-flex justify-content-center">My story</h5>
-         <p>Hello im a Full stack developer leveraging backgrounds in Logistics and Security to provide unique perspectives on how the end-users could interact with the websites and software platforms. Earned a certificate in Full Stack Development from The University of Centeral Florida. Innovative problem-solver who is passionate about developing apps, websites and software. Strengths in creativity, teamwork, and building projects from ideation to execution.
+        <h5 class=" d-flex justify-content-center myStory">My story</h5>
+         <p>Hello, Im a Full Stack Developer leveraging backgrounds in Logistics and Security to provide unique perspectives on how the end-users could interact with the websites and software platforms. Earned a certificate in Full Stack Development from The University of Centeral Florida. Innovative problem-solver who is passionate about developing apps, websites and software. Strengths in creativity, agile Methodologies, and building projects from ideation to execution.
 
          </p>
           </div>

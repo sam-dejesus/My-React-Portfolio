@@ -22,7 +22,6 @@
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    cursor: pointer;
     padding: 10px 24px;
     border-radius: 4px;
     transition-duration: 0.4s;
@@ -31,4 +30,15 @@
   .custom-send-message-button:hover {
     background-color: #16651a;
     color: white;
+  }
+
+  @media screen and (max-width:650px) {
+    .contact-header{
+      font-size: 65px;
+    }
+  }
+  @media screen and (max-width:420px) {
+    .contact-header{
+      font-size: 35px;
+    }
   }

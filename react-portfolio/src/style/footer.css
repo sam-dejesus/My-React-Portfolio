@@ -3,7 +3,6 @@
 }
 .footer-icon-size{
   font-size: 60px;
-
 }
 .footer-text{
     display: flex;
@@ -11,4 +10,35 @@
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+}
+@media screen and (max-width:900px) {
+  .footer-icon-size{
+    font-size: 40px;
+  }
+  
+}
+@media screen and (max-width:420px) {
+  .footer-icon-size{
+    font-size: 20px;
+  }
+  .designer-text{
+    font-size: 14px;
+  }
+  .copyright-text{
+    font-size: 10px;
+  }
+}
+@media screen and (max-width:280px) {
+  .footer-icon-size{
+    font-size: 20px;
+  }
+  .designer-text{
+    font-size: 14px;
+  }
+  .copyright-text{
+    font-size: 12px;
+  }
+  .name{
+    font-size: 9px;
+  }
 }

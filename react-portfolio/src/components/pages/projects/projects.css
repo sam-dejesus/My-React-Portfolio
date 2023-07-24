@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+.projectDiv{
+    background-image: linear-gradient(to top right,#fac90624,#ff660014 50%,#cc330025);
+    
+}
+img{
+    height: 200px;
+    width: 300px;
+    border: 1px solid gray;
+}
+.project-list{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    justify-content: space-around;
+    place-items: center;
+
+
+    
+}
+.project-item{
+    background-color: #ffffff;
+    border: 1px solid gray;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box
+    
+}
+.projectText{
+    font-family: 'Share Tech Mono', monospace;
+    color: #0070b5;
+    font-size: 85px;
+}
+
+.projectName{
+    font-family: 'Share Tech Mono', monospace;
+    color: #0070b5;
+}
+/*  */
+
+
+@media screen and (max-width:1300px) {
+    img{
+        height:100px;
+        width: 200px;
+    }
+}
+@media screen and (max-width:900px) {
+    .project-list{
+        display: flex;
+ 
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .project-item{
+        height: 350px;
+    }
+    img{
+        height:100px;
+        width: 220px;
+    }
+    .projectName{
+        font-size:23px ;
+    }
+
+    .projectDescription{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width:600px) {
+    .projectText{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:500px) {
+    img{
+        height: 75px;
+        width: 120px;
+    }
+
+}
+@media screen and (max-width:380px) {
+
+    .projectText{
+        font-size: 40px;
+    }
+}

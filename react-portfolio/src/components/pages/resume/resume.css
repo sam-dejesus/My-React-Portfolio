@@ -9,4 +9,23 @@
     color: #0070b5;
     font-size: 85px;
   }
+  .btn{
 
+    margin-bottom: 35px !important;
+
+  }
+
+  @media screen and (max-width:520px) {
+    .resumeText{
+      font-size: 65px;
+    }
+    .btn{
+      font-size: 10px !important;
+    }
+
+  }
+  @media screen and (max-width:300px) {
+    .resumeText{
+      font-size: 45px;
+    }
+  }

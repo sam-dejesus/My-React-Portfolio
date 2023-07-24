@@ -13,7 +13,7 @@ function Resume() {
           <Col className="text-center">
             <h1 className="resumeText">Resume</h1>
             <hr/>
-            <Button variant="success" href={PDF} download>
+            <Button variant="success" href={PDF} download className="btn">
               Download Resume
             </Button>
           </Col>
@@ -24,7 +24,7 @@ function Resume() {
             <hr />
             <ul className="list-inline d-flex flex-column">
               <li className="mb-2">
-                <strong>Languages:</strong> JavaScript, HTML, CSS, C#, Python, SQL
+                <strong>Languages:</strong> JavaScript, HTML, CSS, C#, Python, SQL, TypeScript
               </li>
               <li className="mb-2">
                 <strong>Libraries/Frameworks:</strong> React, jQuery, Bootstrap,
@@ -34,7 +34,7 @@ function Resume() {
                 <strong>Databases:</strong> MongoDB, MySQL
               </li>
               <li className="mb-2">
-                <strong>Tools/Software architectural pattern:</strong> Git, GitHub, Heroku, GitLab, MongoDB Compass, GraphQL Playground, Unity, MVC paridigm, Client/Server paridigm
+                <strong>Tools/Software architectural pattern:</strong> Git, GitHub, Heroku, GitLab, MongoDB Compass, GraphQL Playground, Unity, Webkits, Chrome Extensions, MVC paridigm, Client/Server paridigm
               </li>
             </ul>
           </Col>

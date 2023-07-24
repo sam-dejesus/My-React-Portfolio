@@ -29,3 +29,34 @@
         background-position: left 800px top 10px;
     }
 }
+
+@media screen and (max-width:900px) {
+  .text-container h1{
+    font-size: 100px;
+  }
+  
+}
+@media screen and (max-width:600px) {
+  .text-container h1{
+    font-size: 75px;
+  }
+  .text-container{
+    height: 150px;
+}
+}
+@media screen and (max-width:420px) {
+  .text-container h1{
+    font-size: 55px;
+  }
+  .text-container{
+    height: 120px;
+}
+}
+@media screen and (max-width:300px) {
+  .text-container h1{
+    font-size: 35px;
+  }
+  .text-container{
+    height: 100px;
+}
+}
