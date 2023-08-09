@@ -4,6 +4,7 @@ import BinaryBabel from './portfolio images/BinaryBabel.png';
 import CodeQuiz from './portfolio images/Code Quiz.png'
 import WorkdayPlanner from './portfolio images/work day planner.png'
 import NTA from './portfolio images/Note Taker app.png'
+import flightNanny from './portfolio images/flightnanny3-447363e2e71e.herokuapp.com_.png'
 
 const projectData = [
   {
@@ -34,6 +35,13 @@ const projectData = [
     image: NTA,
     description: 'A note taker app that save all of your notes and organizes them'
   },
+  {
+    name: 'Flight Nanny',
+    link:'https://flightnanny3-447363e2e71e.herokuapp.com/',
+    repo: 'https://github.com/Jmussleh/FlightNanny',
+    image: flightNanny,
+    description: 'an app that allows you to book a nanny while flying'
+  }
 ];
 
 export default function Projects() {
