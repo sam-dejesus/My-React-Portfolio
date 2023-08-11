@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.1064d7cc.css",
-    "main.js": "/My-React-Portfolio/static/js/main.f1c4b334.js",
+    "main.js": "/My-React-Portfolio/static/js/main.d5a88fde.js",
     "static/media/work day planner.png": "/My-React-Portfolio/static/media/work day planner.f8fbbcd12663a3fe1dad.png",
+    "static/media/flightnanny3-447363e2e71e.herokuapp.com_.png": "/My-React-Portfolio/static/media/flightnanny3-447363e2e71e.herokuapp.com_.bdc7d831e656f02e4ad5.png",
     "static/media/Code Quiz.png": "/My-React-Portfolio/static/media/Code Quiz.98ca4f4c278c561b2ff4.png",
     "static/media/profile.jpeg": "/My-React-Portfolio/static/media/profile.3336533bbbe04ec06e3c.jpeg",
     "static/media/BinaryBabel.png": "/My-React-Portfolio/static/media/BinaryBabel.a09f9640923b130f619f.png",
@@ -10,10 +11,10 @@
     "static/media/Samuel Dejesus Resume.pdf": "/My-React-Portfolio/static/media/Samuel Dejesus Resume.0b44517621e9606d7998.pdf",
     "index.html": "/My-React-Portfolio/index.html",
     "main.1064d7cc.css.map": "/My-React-Portfolio/static/css/main.1064d7cc.css.map",
-    "main.f1c4b334.js.map": "/My-React-Portfolio/static/js/main.f1c4b334.js.map"
+    "main.d5a88fde.js.map": "/My-React-Portfolio/static/js/main.d5a88fde.js.map"
   },
   "entrypoints": [
     "static/css/main.1064d7cc.css",
-    "static/js/main.f1c4b334.js"
+    "static/js/main.d5a88fde.js"
   ]
 }
