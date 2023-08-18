@@ -9,24 +9,14 @@ const socials = [
       icon: faGithub,
       color: "#5DE512",
     },
-    {
-      name: "YouTube",
-      url: "https://www.youtube.com/",
-      icon: faYoutube,
-      color: "#FF0000",
-    },
+
     {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/samuel-dejesus/",
       icon: faLinkedin,
       color: "#2EACE8",
     },
-    {
-      name: "Instagram",
-      url: "https://www.instagram.com/",
-      icon: faInstagram,
-      color: "white",
-    },
+
   ];
 
 export default function Footer() {

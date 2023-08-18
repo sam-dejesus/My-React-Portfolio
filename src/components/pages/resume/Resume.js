@@ -44,7 +44,7 @@ function Resume() {
             <h3>Education</h3>
             <hr/>
             <div >
-              <h4>B.S in Software Engineering</h4>
+              <h4>B.S in Software Engineering - student</h4>
               <h5 className="mb-4">Western Govoners University, 2023-2025</h5>
               <h4>Certificate in Full-Stack Development</h4>
               <h5 className="mb-4">University of Centeral Florida, 2023-2023</h5>

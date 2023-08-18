@@ -36,7 +36,11 @@ img{
     color: #0070b5;
     font-size: 85px;
 }
-
+.projectTitle{
+    font-family: 'Share Tech Mono', monospace;
+    color: #0070b5;
+    font-size: 55px;
+}
 .projectName{
     font-family: 'Share Tech Mono', monospace;
     color: #0070b5;
