@@ -36,7 +36,7 @@ function Contact() {
   };
 
   // Handle form submission
-  const handleSubmit = (e) => {
+  const handleSubmit = async(e) => {
     e.preventDefault();
     let valid = true;
 
@@ -49,7 +49,7 @@ function Contact() {
       setEmailError(true);
       valid = false;
     }
-    if (message.length < 150) {
+    if (message.length < 80) {
       setMessageError(true);
       valid = false;
     }
@@ -61,6 +61,26 @@ function Contact() {
       setEmail("");
       setMessage("");
       setMessageSent(true);
+
+      const formData = new FormData();
+      formData.append("name", name);
+      formData.append("email", email);
+      formData.append("message", message);
+      //
+
+      try {
+         fetch("https://formsubmit.co/sdejesus484@gmail.com", {
+          method: "POST",
+          body: formData,
+        });
+      }
+      catch (error) {
+        console.error("An error occurred:", error);
+        // Handle error
+      }
+
+
+      
     }
   };
 
@@ -76,7 +96,7 @@ function Contact() {
                 Your message has been sent successfully!
               </div>
             )}
-            <Form onSubmit={handleSubmit} noValidate>
+            <Form onSubmit={handleSubmit} noValidate >
               <Form.Group>
                 <Form.Label htmlFor="name">Name:</Form.Label>
                 <Form.Control
@@ -128,7 +148,7 @@ function Contact() {
                   </div>
                 )}
               </Form.Group>
-              <Button type="submit" className="custom-send-message-button">
+              <Button type="submit" className="custom-send-message-button" >
                 Send Message
               </Button>
             </Form>
