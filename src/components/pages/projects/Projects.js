@@ -9,7 +9,7 @@ import Password from './portfolio images/Password-Generator.png'
 import weather from './portfolio images/weather-dashboard.html.png'
 import social from './portfolio images/Social media back-end.png'
 import employee from './portfolio images/employee.png'
-import flightNanny from './portfolio images/flightnanny3-447363e2e71e.herokuapp.com_.png'
+// import flightNanny from './portfolio images/flightnanny3-447363e2e71e.herokuapp.com_.png'
 
 const projectDataFrontEnd = [
   {
@@ -93,8 +93,8 @@ export default function Projects() {
             </a>
             <p className='projectDescription'>{project.description}</p>
             <div>
-             <a class="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
-             <a class="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>WEBSITE</a>
+             <a className="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
+             <a className="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>WEBSITE</a>
             </div>
 
           </div>
@@ -111,8 +111,8 @@ export default function Projects() {
             </a>
             <p className='projectDescription'>{project.description}</p>
             <div>
-             <a class="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
-             <a class="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>WEBSITE</a>
+             <a className="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
+             <a className="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>DEMO</a>
             </div>
 
           </div>
@@ -130,8 +130,8 @@ export default function Projects() {
             </a>
             <p className='projectDescription'>{project.description}</p>
             <div>
-             <a class="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
-             <a class="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>WEBSITE</a>
+             <a className="btn btn-primary mb-2 me-2" href={project.repo} target="_blank" rel='noreferrer'>REPO</a>
+             <a className="btn btn-success mb-2" href={project.link} target="_blank" rel='noreferrer'>WEBSITE</a>
             </div>
 
           </div>

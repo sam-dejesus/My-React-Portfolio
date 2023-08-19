@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faYoutube, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, } from "@fortawesome/free-brands-svg-icons";
 import '../style/footer.css'
 const socials = [
     {
@@ -51,9 +51,9 @@ export default function Footer() {
         </div>
         <div className="footer-text">
         <h5 className="designer-text">Designed with ❤️  by Samuel Dejesus</h5>
-          <p>
+          
           <h6 className="copyright-text">&copy; {new Date().getFullYear()} All rights reserved.</h6>
-          </p>
+         
         </div>
       </div>
   </div>

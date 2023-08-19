@@ -7,7 +7,7 @@ import PDF from "../../../documentation/Samuel Dejesus Resume.pdf";
 // Resume component
 function Resume() {
   return (
-    <div id="resume" className="resume">
+    <div id="resume" className="resume ">
       <div className="resume-section container">
         <div className="row">
           <Col className="text-center">
@@ -61,36 +61,40 @@ function Resume() {
               <p>
               Transported and unloaded petroleum to multiple locations as efficiently and safely as
               possible while maintaining multiple deadlines throughout the day.
+             </p>
                <ul>Key Accomplishments:</ul>
                <li>Accelerated training due to work performance.</li>
                <li>Help train new drivers through mentorship.</li>
                <li>Maintained a high safety record.</li>
-              </p>
+
             </div>
             <div >
               <h4>Eagle Transport</h4>
               <h5> Petroleum delivery driver 2021-2022</h5>
               <p>
-              
+              Transported and unloaded petroleum to multiple locations as efficiently and safely as possible while
+              maintaining multiple deadlines throughout the day.
+             </p> 
                <ul>Key Accomplishments:</ul>
                <li>Accomplished senior level delivery times in a few months</li>
                <li>Maintained 100% accuracy in delivery records and paperwork, ensuring compliance
                   with regulations and avoiding fines</li>
                <li>Maintained a high safety record.</li>
-              </p>
+      
             </div>
-            <div >
+            <div className="mb-5">
               <h4>Swift Transportation</h4>
               <h5> Commercial Driver</h5>
               <p>
               Transported loads all over the U.S and worked with high value clients in special
               accounts
+             </p>
                <ul>Key Accomplishments:</ul>
                <li>Secured a special delivery account in less then a year due to performance</li>
                <li>Obtained a promotion in less then a year due to performance</li>
                <li>Obtained performance awards</li>
                <li>Given special assignments based on performance</li>
-              </p>
+      
             </div>
 
           </Col>
