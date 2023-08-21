@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.3aad8465.css",
-    "main.js": "/My-React-Portfolio/static/js/main.81a5d3d0.js",
+    "main.js": "/My-React-Portfolio/static/js/main.7e40945c.js",
     "static/media/employee.png": "/My-React-Portfolio/static/media/employee.2e09877c6ab72f88a1e7.png",
     "static/media/weather-dashboard.html.png": "/My-React-Portfolio/static/media/weather-dashboard.html.6f2dd494d30b0cb5a430.png",
     "static/media/Social media back-end.png": "/My-React-Portfolio/static/media/Social media back-end.6a8adfd16cbeb090cc31.png",
@@ -14,10 +14,10 @@
     "static/media/Samuel Dejesus Resume.pdf": "/My-React-Portfolio/static/media/Samuel Dejesus Resume.49b35a6ef69137c2f732.pdf",
     "index.html": "/My-React-Portfolio/index.html",
     "main.3aad8465.css.map": "/My-React-Portfolio/static/css/main.3aad8465.css.map",
-    "main.81a5d3d0.js.map": "/My-React-Portfolio/static/js/main.81a5d3d0.js.map"
+    "main.7e40945c.js.map": "/My-React-Portfolio/static/js/main.7e40945c.js.map"
   },
   "entrypoints": [
     "static/css/main.3aad8465.css",
-    "static/js/main.81a5d3d0.js"
+    "static/js/main.7e40945c.js"
   ]
 }
