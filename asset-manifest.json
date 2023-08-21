@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.3aad8465.css",
-    "main.js": "/static/js/main.50584014.js",
-    "static/media/employee.png": "/static/media/employee.2e09877c6ab72f88a1e7.png",
-    "static/media/weather-dashboard.html.png": "/static/media/weather-dashboard.html.6f2dd494d30b0cb5a430.png",
-    "static/media/Social media back-end.png": "/static/media/Social media back-end.6a8adfd16cbeb090cc31.png",
-    "static/media/work day planner.png": "/static/media/work day planner.f8fbbcd12663a3fe1dad.png",
-    "static/media/Password-Generator.png": "/static/media/Password-Generator.835dc722d14a179ecdb8.png",
+    "main.css": "./static/css/main.3aad8465.css",
+    "main.js": "./static/js/main.50584014.js",
+    "static/media/employee.png": "./static/media/employee.2e09877c6ab72f88a1e7.png",
+    "static/media/weather-dashboard.html.png": "./static/media/weather-dashboard.html.6f2dd494d30b0cb5a430.png",
+    "static/media/Social media back-end.png": "./static/media/Social media back-end.6a8adfd16cbeb090cc31.png",
+    "static/media/work day planner.png": "./static/media/work day planner.f8fbbcd12663a3fe1dad.png",
+    "static/media/Password-Generator.png": "./static/media/Password-Generator.835dc722d14a179ecdb8.png",
     "static/media/Code Quiz.png": "/static/media/Code Quiz.98ca4f4c278c561b2ff4.png",
     "static/media/profile.jpeg": "/static/media/profile.3336533bbbe04ec06e3c.jpeg",
     "static/media/BinaryBabel.png": "/static/media/BinaryBabel.a09f9640923b130f619f.png",
     "static/media/Note Taker app.png": "/static/media/Note Taker app.2738dfa835ee2184dbfd.png",
     "static/media/Samuel Dejesus Resume.pdf": "/static/media/Samuel Dejesus Resume.49b35a6ef69137c2f732.pdf",
-    "index.html": "/index.html",
-    "main.3aad8465.css.map": "/static/css/main.3aad8465.css.map",
-    "main.50584014.js.map": "/static/js/main.50584014.js.map"
+    "index.html": "./index.html",
+    "main.3aad8465.css.map": "./static/css/main.3aad8465.css.map",
+    "main.50584014.js.map": "./static/js/main.50584014.js.map"
   },
   "entrypoints": [
     "static/css/main.3aad8465.css",
