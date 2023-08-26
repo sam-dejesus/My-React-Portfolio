@@ -15,7 +15,7 @@ function App() {
         <Hero />
         <NavTabs />
         <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/My-React-Portfolio" element={<Home />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Resume" element={<Resume />} />
         <Route path="/Contact" element={<Contact />} />

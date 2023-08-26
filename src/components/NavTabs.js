@@ -13,10 +13,10 @@ function NavTabs({ currentPage, handlePageChange }) {
 
   return (
     <nav className='nav nav-tabs bg-dark sticky-top'>
-      {/* Sandwich menu for smaller screens */}
+
       <div className='col-12 navDiv d-md-none'>
-        <button className='nav-link' onClick={toggleMenu}>
-          {/* Add your sandwich menu icon here, e.g., three horizontal lines */}
+        <button className='nav-link sandwichBox' onClick={toggleMenu}>
+          
           <FontAwesomeIcon
                   icon={faNavicon}
 
@@ -24,10 +24,10 @@ function NavTabs({ currentPage, handlePageChange }) {
         </button>
       </div>
 
-      {/* Regular navigation links for larger screens */}
-      <div className={`col-12 navDiv ${showMenu ? 'd-block' : 'd-none'} d-md-flex justify-content-end`}>
+
+      <div className={`col-12 navDiv ${showMenu ? 'd-flex flex-column ' : 'd-none'} d-md-flex justify-content-end pe-5`}>
         <Link
-          to="/"
+          to="/My-React-Portfolio"
   
           id='nav-link'
         >

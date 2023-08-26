@@ -14,17 +14,17 @@ import employee from './portfolio images/employee.png'
 const projectDataFrontEnd = [
   {
     name: 'Code Quiz',
-    link: 'https://sam-dejesus.github.io/Code-quiz/',
-    repo: 'https://github.com/sam-dejesus/Code-quiz',
+    link: 'https://sam-dejesus.github.io/Code-Quiz2/',
+    repo: 'https://github.com/sam-dejesus/Code-Quiz2',
     image: CodeQuiz,
-    description: 'Try this fun coding quiz that uses local storage to save your score'
+    description: 'Try this engaging coding quiz that features three exciting difficulty settings and uses local storage to save your score and unlock achievements'
   },
   {
     name: 'Work Day Planner',
     link: 'https://sam-dejesus.github.io/Workday-planner/',
     repo: 'https://github.com/sam-dejesus/Workday-planner',
     image: WorkdayPlanner,
-    description: 'a Work day planner that uses local storage to plan out your day'
+    description: 'A work day planner that uses local storage to plan out your day'
   },
   {
     name: 'Weather Dashboard',
@@ -38,7 +38,7 @@ const projectDataFrontEnd = [
     link:'https://sam-dejesus.github.io/Password-generator/',
     repo: 'https://github.com/sam-dejesus/Password-generator',
     image: Password,
-    description: 'an app that helps you generate a random password'
+    description: 'An app that helps you generate a random password'
   }
 ];
 
@@ -48,14 +48,14 @@ const projectDataBackEnd = [
     Demo:'https://drive.google.com/file/d/1KBNRHmjOck8Guk1THne5yq-zSS4JZOM7/view',
     repo: 'https://github.com/sam-dejesus/Social-network-back-end',
     image: social,
-    description: 'a social network backend to showcase the power and flexibility of MongoDB, Mongoose, and Nodejs'
+    description: 'A social network backend to showcase the power and flexibility of MongoDB, Mongoose, and Nodejs'
   },
   {
     name: 'Employee Tracker App',
     Demo:'https://drive.google.com/file/d/13otBgCQZsQJt792jjg8ezpPvd0MuazYj/view',
     repo: 'https://github.com/sam-dejesus/Employee-tracker-app',
     image: employee,
-    description: 'a CLI that tracks employee data such salary, dempartment, title and also provides CRUD functionality'
+    description: 'CLI that tracks employee data such salary, dempartment, title and also provides CRUD functionality'
   }
 
 ]
@@ -73,7 +73,7 @@ const projectDataFullStack = [
     link: 'https://sdj-note-taker-app.herokuapp.com/',
     repo: 'https://github.com/sam-dejesus/Note-taker-app',
     image: NTA,
-    description: 'A note taker app that save all of your notes and organizes them'
+    description: 'Note taker app that save all of your notes and organizes them'
   },
 ]
 
