@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/My-React-Portfolio/static/css/main.95327450.css",
-    "main.js": "/My-React-Portfolio/static/js/main.6ac119be.js",
+    "main.js": "/My-React-Portfolio/static/js/main.709f511c.js",
     "static/media/employee.png": "/My-React-Portfolio/static/media/employee.2e09877c6ab72f88a1e7.png",
     "static/media/weather-dashboard.html.png": "/My-React-Portfolio/static/media/weather-dashboard.html.6f2dd494d30b0cb5a430.png",
     "static/media/Code Quiz.png": "/My-React-Portfolio/static/media/Code Quiz.7e93e4e6375f6bfcc094.png",
@@ -14,10 +14,10 @@
     "static/media/Samuel Dejesus Resume.pdf": "/My-React-Portfolio/static/media/Samuel Dejesus Resume.49b35a6ef69137c2f732.pdf",
     "index.html": "/My-React-Portfolio/index.html",
     "main.95327450.css.map": "/My-React-Portfolio/static/css/main.95327450.css.map",
-    "main.6ac119be.js.map": "/My-React-Portfolio/static/js/main.6ac119be.js.map"
+    "main.709f511c.js.map": "/My-React-Portfolio/static/js/main.709f511c.js.map"
   },
   "entrypoints": [
     "static/css/main.95327450.css",
-    "static/js/main.6ac119be.js"
+    "static/js/main.709f511c.js"
   ]
 }

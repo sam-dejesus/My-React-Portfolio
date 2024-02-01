@@ -45,9 +45,9 @@ function Resume() {
             <hr/>
             <div >
               <h4>B.S in Software Engineering - student</h4>
-              <h5 className="mb-4">Western Govoners University, 2023-2025</h5>
+              <h5 className="mb-4">Western Govoners University</h5>
               <h4>Certificate in Full-Stack Development</h4>
-              <h5 className="mb-4">University of Centeral Florida, 2023-2023</h5>
+              <h5 className="mb-4">University of Centeral Florida</h5>
             </div>
           </Col>
         </Row>
@@ -57,7 +57,7 @@ function Resume() {
             <hr />
             <div >
               <h4>Florida Rock and Tank Line</h4>
-              <h5> Petroleum delivery driver 2022-2023</h5>
+              <h5> Petroleum Driver 2022-2023</h5>
               <p>
               Transported and unloaded petroleum to multiple locations as efficiently and safely as
               possible while maintaining multiple deadlines throughout the day.
@@ -70,7 +70,7 @@ function Resume() {
             </div>
             <div >
               <h4>Eagle Transport</h4>
-              <h5> Petroleum delivery driver 2021-2022</h5>
+              <h5> Petroleum Driver 2021-2022</h5>
               <p>
               Transported and unloaded petroleum to multiple locations as efficiently and safely as possible while
               maintaining multiple deadlines throughout the day.
@@ -84,7 +84,7 @@ function Resume() {
             </div>
             <div className="mb-5">
               <h4>Swift Transportation</h4>
-              <h5> Commercial Driver</h5>
+              <h5> Commercial Driver 2019-2021</h5>
               <p>
               Transported loads all over the U.S and worked with high value clients in special
               accounts
